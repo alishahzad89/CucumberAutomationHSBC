@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "json:target/cucumber.json"},
+       plugin = { "de.monochromata.cucumber.report.PrettyReports:report/cucumber" },
         monochrome = true,
         features = "src/test/java/features",
         glue = "steps",
