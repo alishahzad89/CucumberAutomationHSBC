@@ -34,4 +34,3 @@ Feature: Test Date API features
     Given Foreign Exchange rates for date "2020-01-31" with base "USD"
     When The API is available
     Then Validate rate api response status code "200"
-    
