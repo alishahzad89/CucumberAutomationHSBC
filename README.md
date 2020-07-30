@@ -33,9 +33,13 @@ You will need the following things properly installed on your computer.
 
 Test outputs can be seen on console and junit run window
 
+### HTML Report
+
+After test execution please open file "report/cucumber/cucumber-html-reports/overview-features.html"
+
 ### Shortcomings/TODOs:
 
-- Do not have information for timezone, hence taken "UTC" into consideration
+- Do not have information for timezone, hence taken "UTC" into consideration, it is causing failure of few test scenarios.
 - We can have more validation for exact rates values, expected values can be stored in json and actual values can be taken from response.
 
 ### Author
